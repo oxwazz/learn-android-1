@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.jettipapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.jettipapp"
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    // Icon
+    implementation("androidx.compose.material:material-icons-extended:1.5.0")
 }
