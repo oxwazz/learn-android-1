@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.movieapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.movieapp"
@@ -67,4 +67,5 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation("androidx.navigation:navigation-compose:2.7.1")
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
